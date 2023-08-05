@@ -1,0 +1,27 @@
+#toTopButtonContainer{
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+
+}
+button{
+    width:100px;
+    background-color: transparent;
+}
+#toTop{
+   color: white;
+   text-shadow: 0 0 20px black;
+}
+@media screen and (max-width: 750px) {
+    #toTop{
+        font-size:26px;
+        transform: translateX(5vw)
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #toTop{
+        font-size: 24px;
+        transform: translateX(9vw)
+    }
+}

@@ -1,0 +1,47 @@
+<div fxHide.xs fxShow.gt-xs class="section-dimensions background-black" fxLayout="column" fxLayoutAlign="center">
+
+    <div fxLayout="column" style="transform:translateY(6vw)">
+
+        <div fxHide.xs fxShow.gt-xs class=" background-black" fxLayout="row" fxLayoutAlign="start"> 
+            <h1> Hi i'm Tapioca & <br> <span>I love to move!</span> </h1>
+
+        </div>
+
+        <div fxHide.xs fxShow.gt-xs  class="background-black" fxLayout="row" fxLayoutAlign="center center" style="width: 100%; height: 40vh;  ">
+
+            <p> My passion for fitness started at a young age and has grown into a successful career. I believe that working out should be fun and exciting, and that everyone can achieve their fitness goals with the right mindset and guidance.
+                <br><br>
+                With years of experience in the fitness industry, I have developed a unique approach to training that combines traditional methods with new and innovative techniques. My clients love my positive energy and dedication to helping them reach their full potential.
+                <br><br>
+                Whether you're just starting out on your fitness journey or looking to take your training to the next level, I'm here to help. Let's work together to achieve your fitness goals and have fun while doing it!
+            </p>
+        </div>
+
+        <div fxHide.xs fxShow.gt-xs  class="background-black" fxLayout="row" fxLayoutAlign="end" id="buttonContainer">
+            <button class="background-gradient" aria-label="scrolls to schedule section" (click)="scrollTo()">Workout with me</button>
+        </div>
+    </div>
+</div>
+
+<!--Mobile-->
+
+<div id="TotalMobileDiv" class="mobile-dimensions">
+    <div fxShow.xs fxHide.gt-xs class="background-black" fxLayout="row" fxLayoutAlign="start center" style="width: 100%; height: 75px;"> 
+        <h1> Hi i'm Tapioca & <br> <span>I love to move!</span>  </h1>
+    </div>
+
+    <div fxShow.xs fxHide.gt-xs  class="background-black" fxLayout="row" fxLayoutAlign="center center" style="width: 100%; height: 100%; ">
+
+        <p id="pMobile"> My passion for fitness started at a young age and has grown into a successful career. I believe that working out should be fun and exciting, and that everyone can achieve their fitness goals with the right mindset and guidance.
+            <br><br>
+            With years of experience in the fitness industry, I have developed a unique approach to training that combines traditional methods with new and innovative techniques. My clients love my positive energy and dedication to helping them reach their full potential.
+            <br><br>
+            Whether you're just starting out on your fitness journey or looking to take your training to the next level, I'm here to help. Let's work together to achieve your fitness goals and have fun while doing it!
+        </p>
+
+    </div>
+
+    <div fxShow.xs fxHide.gt-xs  class="buttonContainerMobile background-black" fxLayout="row" fxLayoutAlign="center start">
+        <button class="mobile-button background-gradient" aria-label="scrolls to schedule section" (click)="scrollTo()">Workout with me</button>
+    </div>
+</div>

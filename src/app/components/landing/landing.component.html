@@ -1,0 +1,51 @@
+<div class="section-dimensions background-black" fxHide.xs fxHide.sm fxShow.gt-sm fxLayout="column" fxLayoutAlign="center center"> 
+
+    <div id="content-grandparent" fxLayout="row" fxFlex="80" fxLayoutGap="2vw">
+        <div fxLayout="column" fxFlex="60" class="background-gradient" id="column1" fxLayoutAlign="center center"> 
+            <div id="logoContainer">
+                <img id="logo" alt="Image of logo" aria-label="Image of logo" src="assets/logo.svg">
+            </div>
+            
+            <div fxLayoutAlign="center center" id="h1Container">
+                <h1 ngStyle.md="width:100%">Elevate your fitness game with fun & exhilarating classes</h1>
+            </div>
+
+            <div id="buttonContainer" fxLayoutAlign="center center">
+                <button (click)="scrollTo()">Begin now</button>
+            </div>
+        </div>
+
+        <div fxLayout="column" fxFlex="40" id="column2">
+            <img src="assets/deadlift.jpg" aria-label="image of a man deadlifting weight." alt="image of a man deadlifting weight. Source: https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+        </div>
+
+    </div>
+
+</div>
+
+<!--Mobile-->
+<!--a Lazy method using fxLayoutDirective to hide or show views based on viewport width. I implemented this to ensure mobile and desktop views do not interfere with one another. I don't use this method in more recent projects-->
+
+<div id="highestDiv" class="mobile-dimensions background-gradient" fxShow.xs fxHide.gt-sm fxLayout="column" fxLayoutAlign="center center"> 
+
+    <div fxLayout="column" fxFlex="100" style="width: 100%">
+        <div fxLayout="column"  id="column1Mobile" class="background-gradient" fxLayoutAlign="center center"> 
+            
+            <div fxLayoutAlign="center center" id="logoContainerMobile">
+                <img id="logoMobile" src="assets/logo.svg" alt="image of logo" aria-label="image of logo">
+            </div>
+        
+            <h1 id="h1Mobile">Elevate your fitness game with fun & exhilarating classes</h1>
+
+            <div fxFlex="100" id="buttonContainerMobile" fxLayoutAlign="center start">
+                <button (click)="scrollTo()" id="buttonMobile">Begin now </button>
+            </div>
+
+        </div>   
+    </div>
+
+    <div fxLayout="row" fxFlex="100" id="column2Mobile">
+        <img src="assets/deadlift.jpg" aria-label="image of a man deadlifting weight." alt="image of a man deadlifting weight. Source: https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+    </div>
+
+</div>

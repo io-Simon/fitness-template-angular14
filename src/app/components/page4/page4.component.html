@@ -1,0 +1,42 @@
+<div fxHide.xs fxShow.gt-xs  class="section-dimensions background-black" fxLayout="column" fxLayoutAlign="center center"> 
+
+    <div fxLayout="row" fxFlex="80" class="column1-parent" fxLayoutGap="1.5vw">
+ 
+        <div fxLayout="column" fxFlex="45" id="column1" class="background-gradient" fxLayoutAlign="center start"> 
+  
+            <h1>Weekend Dance Party </h1>
+            <p>Join our Weekend Dance Party workout and have a blast while getting fit. Groove to the beat and break a sweat with this fun and energetic routine.</p>
+            <div id="buttonContainer"  fxLayoutAlign="start start">
+                <button aria-label="link to navigate to our contact page" (click)="scrollTo()">Sign Up Now</button>
+            </div>
+
+        </div>
+
+        <div fxLayout="column" fxFlex="55" id="column2">
+            <img aria-label="women dancing in a class" id="dancing-image-filter" src="https://images.pexels.com/photos/4090009/pexels-photo-4090009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+    </div>
+
+</div>
+
+<!--Mobile-->
+
+<div fxShow.xs fxHide.gt-xs  class="background-gradient"  fxLayout="column" fxLayoutAlign="center center" style="width: 100%; height: 100%;"> 
+
+    <div fxLayout="column" fxFlex="100"  style="width: 100%; " >
+ 
+        <div fxLayout="column" fxFlex="100" id="column2">
+            <img aria-label="women dancing in a class" id="dancing-image-filter" src="https://images.pexels.com/photos/4090009/pexels-photo-4090009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+
+        <div fxLayout="column" fxFlex="100" id="column1Mobile" class="background-gradient" fxLayoutAlign="center center"> 
+  
+            <h1 class="mobile-h1" id="h1Mobile">Weekend Dance Party </h1>
+            <p id="pMobile">Join our Weekend Dance Party workout and have a blast while getting fit. Groove to the beat and break a sweat with this fun and energetic routine.</p>
+           </div> 
+           
+            <div id="buttonContainerMobile" fxLayoutAlign="center center">
+                <button class="mobile-button" id="buttonMobile" aria-label="link to navigate to our contact page" (click)="scrollTo()">Sign Up Now</button>
+            </div>
+    </div>
+</div>

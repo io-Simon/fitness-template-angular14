@@ -1,0 +1,74 @@
+h1{
+    font-size: 3.5em;
+    color:black;
+    font-weight: 500;
+}
+
+p{
+    padding-top: 3vh;
+    color: white;
+    font-size: 1.2em;
+    width: 80%
+}
+
+button{
+    width: 350px;
+    height: 50px;
+    font-weight:600;
+    font-size: 2em;
+    background: black;
+    color:white;
+    border: none;
+    //mix-blend-mode: darken;
+}
+
+img{
+    width:100%;
+    height:100%
+}
+
+#column1{
+    //background: linear-gradient(to right, #c331ff 0%, #6f00ff 50%);
+    height:100%;
+    width:50%;
+    padding-left:3vw;
+}
+
+#column1Mobile{
+    //background: linear-gradient(to right, #c331ff 0%, #6f00ff 50%);
+    height:100%;
+    width:100%;
+    padding-top: 5vh
+ 
+}
+
+#buttonContainer{
+    width: 100%;
+    padding-top: 5vh
+}
+
+#buttonContainerMobile{
+    padding-top:3vh;
+    padding-bottom: 5vh;
+    width: 100%;
+}
+
+
+#pMobile{
+    font-size: 1.3em;
+    width:70%
+}
+
+#h1Mobile{
+    padding-left:4vw;
+    padding-right:2vw
+}
+
+#dancing-image-filter{
+    filter: grayscale(1);
+}
+.column1-parent{
+    width: 100%; 
+    padding-left: 5vw;
+    padding-right: 5vw
+}

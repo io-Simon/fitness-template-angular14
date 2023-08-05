@@ -1,0 +1,90 @@
+<div fxHide.xs fxShow.gt-xs class="section-dimensions background-gradient" fxLayout="column" fxLayoutAlign="center center">
+
+    <div fxLayout="row" fxFlex="20" fxLayoutAlign="center center">
+        <h1>Fitness Schedule</h1>
+    </div>
+
+    <div fxLayout="row" fxFlex="45" style="width: 95%;" fxLayoutAlign="center" fxLayoutGap="40px">
+
+        <div fxLayoutAlign="center center " fxLayout="column" fxFlex="30" class="page3-box-parent">
+            <div fxLayout="column" class="page3-box" fxLayoutAlign="center center">
+                <p class="time-schedule">6AM — 7AM</p>
+                <p class="line"></p>
+                <p class="contentTitle">Swimming*</p>
+                <button aria-label="link to navigate to our contact page" (click)="scrollTo()"> BOOK</button>
+            </div>
+
+        </div>
+        
+        <div fxLayoutAlign="center center"  fxLayout="column" fxFlex="30" class="page3-box-parent">
+            <div fxLayout="column" class="page3-box" fxLayoutAlign="center center">
+                <p class="time-schedule">12PM — 1PM</p>
+                <p class="line"></p>
+                <p class="contentTitle">Padel*</p>
+                <button aria-label="link to navigate to our contact page" (click)="scrollTo()"> BOOK</button>
+            </div>
+
+        </div>
+        
+        <div fxLayoutAlign="center center "  fxLayout="column" fxFlex="30" class="page3-box-parent">
+            <div fxLayout="column" class="page3-box" fxLayoutAlign="center center">
+                <p class="time-schedule">2PM — 3PM</p>
+                <p class="line"></p>
+                <p class="contentTitle">HIIT*</p>
+                <button aria-label="link to navigate to our contact page" (click)="scrollTo()"> BOOK</button>
+            </div>
+        
+        </div>
+
+    </div>
+
+    <div fxFlex="10" fxLayoutAlign="start center" style="width:100%;">
+        <p class="disclaimer" ngStyle.gt-xs="font-size: 20px">* Book now to avoid disappointment.</p>
+    </div>
+
+</div>
+
+<!--Mobile-->
+
+<div fxShow.xs fxHide.gt-xs  class="background-black"  fxLayout="column" fxLayoutAlign="center center" style="width: 100%; height: 100%; padding-top: 10vh; padding-bottom: 10vh">
+
+    <div fxLayout="row" fxFlex="30" style="width: 100%; height: 100%; padding-bottom: 6vw;" fxLayoutAlign="center center">
+        <h1 class="mobile-h1">Fitness Schedule</h1>
+    </div>
+
+    <div fxLayout="column" fxFlex="30" style="width: 70%;" fxLayoutAlign="center" fxLayoutGap="40px">
+
+        <div fxLayoutAlign="center center " fxLayout="column" fxFlex="100" style=" background: white; height:70%;">
+            <p class="pMobile">6AM — 7AM</p>
+            <p class="line pMobile"></p>
+            <p class="contentTitle pMobile"> Swimming*</p>
+            <div class="mobile-button-container">
+                <button class="buttonMobile background-gradient" aria-label="link to navigate to our contact page" (click)="scrollTo()"> BOOK</button>
+            </div>
+        </div>
+        
+        <div fxLayoutAlign="center center "  fxLayout="column" fxFlex="100" style=" background: white; height:70%;">
+            <p class="pMobile">12PM — 1PM</p>
+            <p class="line "></p>
+            <p class="contentTitle pMobile">Padel*</p>
+            <div class="mobile-button-container">
+                <button class="buttonMobile background-gradient" aria-label="link to navigate to our contact page"(click)="scrollTo()" > BOOK</button>
+            </div>
+        </div>
+        
+        <div fxLayoutAlign="center center "  fxLayout="column" fxFlex="100" style=" background: white; height:70%;">
+            <p class="pMobile">2PM — 3PM</p>
+            <p class="line"></p>
+            <p class="contentTitle pMobile">HIIT*</p>
+            <div class="mobile-button-container">
+                <button class="buttonMobile background-gradient" aria-label="link to navigate to our contact page" (click)="scrollTo()"> BOOK</button>
+            </div>
+        </div>
+
+        <div style="width:100%;">
+            <p class="disclaimer">* Book now to avoid disappointment.</p>
+        </div>
+
+    </div>
+
+</div>
